@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    
+    
+}
+
+body{
+    background-image: url('/login-renascentista/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+} 
+
+section{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+        width: 1112px;
+    height: 680px;
+    left: 194px;
+    top: 354px;
+
+    background: linear-gradient(116.52deg, rgba(255, 255, 255, 0.22) -0.3%, rgba(255, 255, 255, 0.2) 81.34%);
+    backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.formulario{
+    max-width: 100%;
+    width: 550px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.form-group{
+    padding-top: 20px;
+}
+
+.form-group label{
+    
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.form-group input{
+    display: block;
+    width: 350px;
+height: 36px;
+border: 2px solid rgba(255, 255, 255, 0.5);;
+
+background: linear-gradient(92.01deg, rgba(255, 255, 255, 0.02) -8.99%, rgba(255, 255, 255, 0.14) 101.74%);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 5px;
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 67px;
+    
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.form a{    
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+float: right;
+padding-top: 10px;
+}
+
+.btn-log{
+    width: 107px;
+height: 36px;
+left: 93px;
+top: 517px;
+
+background: #000000;
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 5px;
+border-width: 0px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 19px;
+
+color: #FFFFFF;
+margin-top: 90px;
+
+}
+
+.image img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    padding-right: 15px;
+    width: 526px;
+}
+
+.have-account {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.have-account p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.have-account button{
+    width: 107px;
+    height: 36px;
+    width: 150px;
+    height: 36px;
+    
+    background: #000000;
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 5px;
+    border-width: 0px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+    margin-left: 10px;
+}
